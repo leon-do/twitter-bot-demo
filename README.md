@@ -28,8 +28,8 @@ const twitter = require("./src/twitter");
 const downloadMedia = require("./src/downloadMedia");
 const deleteMedia = require("./src/deleteMedia");
 
-main();
-async function main() {
+tweet();
+async function tweet() {
   // tweet
   await twitter.v1.tweet("Hello World");
 
